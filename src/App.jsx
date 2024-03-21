@@ -1,18 +1,12 @@
 import './App.css'
+import Card from './Card'
+
 
 function App() {
 
   return (
     <main>
-      <div>
-        <h1>Hello world</h1>
-        <p>0</p>
-        <button>Reset</button>
-        <div>
-          <button>-</button>
-          <button>+</button>
-        </div>
-      </div>
+      <Card />
     </main>
   )
 }
